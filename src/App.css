@@ -1,0 +1,183 @@
+body{
+    background-color: #F6F6F6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    border: 2px solid #F6F6F6;
+    border-style: groove;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.flex-container-data,.flex-container-footer,.flex-container-heading {
+    display: flex;
+    font-size: 20px;
+    align-content: center;
+    padding: 10px;
+}
+
+.flex-container-data{
+    background-color: white;
+    border-top: 2px solid #F6F6F6;
+}
+
+.displayLocation {
+    color: #888888;
+    font-size: 15px;
+}
+
+.flex-container-footer{
+    justify-content: flex-end;
+    background-color: white;
+    border-top: 2px solid #F6F6F6;
+}
+
+.flex-container-footer > button{
+    margin: 5px;
+}
+
+ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+.displaytext{
+    flex: 92%;
+}
+
+.displayview{
+    flex: 5%;
+    padding: 0;
+    background-color:  #00B284;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.displayclosebtn{
+    flex: 3%;
+    padding: 0;
+}
+
+.cancelBtn{
+    border: none;
+    background-color: white;
+}
+
+.titleclass{
+    color: #00B284;
+}
+
+/*Modal CSS*/
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(220,220,220, 0.7);
+}
+
+.modal .modal-main {
+    position: fixed;
+    background: white;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: 15px;
+}
+  
+.display-block {
+    display: block;
+}
+  
+.display-none {
+    display: none;
+}
+
+/*inside modal*/
+
+.titlebar {
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    border-bottom: 2px solid #F6F6F6;
+    font: bold 20px Arial, serif;
+    color: #424242;
+}
+
+.titledisplay{
+    flex: 98%;
+}
+
+.closebtnmodal{
+    flex: 2%;
+    border: none;
+    background: white;
+}
+
+.row {  
+    display: flex;  
+}
+
+.colleft {
+    flex: 50%;
+    margin: 15px;
+}
+
+.colright{
+    flex: 50%;
+    margin: 15px;
+}
+
+.modalheading{
+    border-bottom: 3px solid  #888888;
+    color: #888888;
+}
+
+.rowfields{
+    margin: 5px;
+}
+
+#dropdown{
+    width: 100%;
+    margin: 3px;
+    padding: 3px 0;
+    margin-left: 0;
+}
+
+.modaldata{
+    font: bold 15px Arial, serif;
+    margin: 3px;
+    padding: 3px 0;
+}
+
+.rowfields >button{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#btncolorleft{
+    background:  #00B284;
+}
+
+#btncolorright{
+    background: rebeccapurple;
+}
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+  
